@@ -2,4 +2,4 @@ yiggle_form_wizard:
   resource: '@YiggleFormWizardBundle/config/routes/website.yaml'
 
 yiggle_form_wizard_admin:
-  resource: '@YiggleFormWizardBundle/config/routes/admin.yaml'
+    resource: '@YiggleFormWizardBundle/config/routes/admin.yaml'

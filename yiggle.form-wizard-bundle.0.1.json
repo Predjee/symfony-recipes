@@ -1,0 +1,16 @@
+{
+  "manifests": {
+    "yiggle/form-wizard-bundle": {
+      "manifest": {
+        "bundles": {
+          "Yiggle\\FormWizardBundle\\YiggleFormWizardBundle": ["all"]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%/"
+        },
+        "aliases": ["form-wizard"]
+      },
+      "ref": "c4223892d969e29b5144c9d3e7f7c38213791146"
+    }
+  }
+}
