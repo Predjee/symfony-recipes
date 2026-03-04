@@ -1,0 +1,15 @@
+{
+  "bundles": {
+    "Yiggle\\FormWizardBundle\\YiggleFormWizardBundle": ["all"]
+  },
+  "copy-from-recipe": {
+    "config/packages/yiggle_form_wizard.yaml": "%CONFIG_DIR%/packages/yiggle_form_wizard.yaml",
+    "config/routes/yiggle_form_wizard.yaml": "%CONFIG_DIR%/routes/yiggle_form_wizard.yaml"
+  },
+  "env": {
+    "YIGGLE_WIZARD_EMAIL_FROM": "noreply@domain.tld",
+    "YIGGLE_WIZARD_EMAIL_NAME": "Yiggle Form Wizard",
+    "YIGGLE_WIZARD_MOLLIE_KEY": ""
+  },
+  "aliases": ["form-wizard"]
+}
