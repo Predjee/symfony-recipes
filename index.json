@@ -1,14 +1,11 @@
 {
   "recipes": {
-    "yiggle/form-wizard-bundle": [
-      "0.1"
-    ]
+    "yiggle/form-wizard-bundle": ["0.1"]
   },
   "branch": "master",
   "is_contrib": true,
   "_links": {
     "repository": "github.com/Predjee/symfony-recipes",
-    "origin_template": "{package}:{version}@github.com/Predjee/symfony-recipes:master",
-    "recipe_template": "https://api.github.com/repos/Predjee/symfony-recipes/contents/{package_dotted}.{version}.json"
+    "recipe_template": "https://raw.githubusercontent.com/Predjee/symfony-recipes/master/{package_dotted}.{version}.json"
   }
 }
